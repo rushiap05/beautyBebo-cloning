@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new customer account beauty bebo</title>
+    <link rel="stylesheet" href="stylesign.css">
+</head>
+<body>
+    <div class="signHead">CREATE NEW CUSTOMER ACCOUNT</div>
+    <div class="logo">
+        <div class="facebookLogo">
+            <div>
+                <img  src="facebook.png" alt="facebook logo">
+            </div>
+            <div>
+                <p>sign in with facebook</p>
+            </div>
+        </div>
+
+        <!-- INPUT BOX -->
+
+        <div class="mainInputBox">
+            <div class="adjustBox">
+                <div style="font-size: 18px; margin: 10px 0px;">
+                    PERSONAL INFORMATION
+                </div>
+                <hr/>
+                <div class="firstName">
+                   <div class="outsideMargin">
+                    <div class="boxTextMargin">
+                        <label class="boxText" for="text">First Name</label>
+                    </div>
+                    <div>
+                        <input id="box1"  class="inputBox1" type="text">
+                    </div>
+                   </div>
+                  <div class="outsideMargin">
+                    <div class="boxTextMargin">
+                        <label class="boxText" for="text">Last Name</label>
+                    </div>
+                    <div>
+                        <input id="box2"  class="inputBox1" type="text">
+                    </div>
+                  </div>
+                </div>
+                <div class="outsideMargin">
+                    <div class="boxTextMargin">
+                        <label class="boxText" for="email">Email</label>
+                    </div>
+                    <div>
+                        <input id="box3" class="inputBox2" type="email">
+                    </div>
+                </div>
+                <div class="outsideMargin">
+                    <div class="boxTextMargin">
+                        <label class="boxText" for="number">Phone</label>
+                    </div>
+                    <div>
+                        <input id="box4" class="inputBox2" type="number">
+                    </div>
+                </div>
+                <div class="outsideMargin">
+                    <div class="boxTextMargin">
+                        <label class="boxText" for="password">Password</label>
+                    </div>
+                    <div>
+                        <input id="box5" class="inputBox2" type="password">
+                    </div>
+                </div>
+                <div class="outsideMargin">
+                    <div class="boxTextMargin">
+                        <label class="boxText" for="password">Confirm Passoword</label>
+                    </div>
+                    <div>
+                        <input id="box6" class="inputBox2" type="password">
+                    </div>
+                </div>
+                <div class="buttonEdit">
+                    <button onclick="move()" class="buttonFirst">CREATE AN ACCOUNT</button>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+
+    <!-- INPUT BOX -->
+    <script>
+        function move() {
+            var name = document.getElementById("box1").value;
+            var mobile = document.getElementById("box2").value;
+            var  pin = document.getElementById("box3").value;
+            var address = document.getElementById("box4").value;
+            var locality = document.getElementById("box5").value;
+            var district = document.getElementById("box6").value;
+            if(name.length === 0 || mobile.length === 0 || pin.length === 0 || address.length === 0 || locality.length === 0 || district.length === 0 ){
+                alert("Address is not complete");
+            }
+            else {
+                window.location.href = "login.html";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+/* TOP HEAD  */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.startHead {
+    background-color: black;
+}
+
+.topImage {
+    width: 100%;
+}
+
+.topImage + p {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -4px;
+    padding: 4px 0px;
+}
+
+/* TOP HEAD  */
+
+
+/* TOP HEAD SEACH BAR PART  */
+
+
+/* ALL GRID PART  */
+
+.internalBar {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+
+/* ALL GRID PART  */
+
+.internalBar {
+    width: 85%;
+    margin: auto;
+}
+
+.sideButton {
+    width: 45px;
+    height: 36px;
+    background-color: #dd0285;
+    margin: auto 0px;
+}
+
+.topInputBox {
+    width: 33rem;
+    height: 2rem;
+    margin: auto 0px;
+}
+
+.searchContent {
+    display: flex;
+}
+
+.rightSearchBar {
+    display: flex;
+    margin-left: 10%;
+}
+
+.rightSearchBar > img, p {
+    margin: 10px;
+}
+
+.rightSearchBar > img {
+    width: 40px;
+    height: 40px;
+}
+
+.rightSearchBar > p {
+    line-height: 40px;
+}
+
+.loginFloat > a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+/* PINK HEAD NAVIGATION BAR  */
+
+.navbar {
+    height: 50px;
+    background-color: #dd0285;
+    position: sticky;
+    top: 0px;
+
+}
+
+.navbarAllItems > ul {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.navbarAllItems > ul > li {
+    list-style: none;
+    padding: 10px;
+    margin: 0px 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.gayabPart {
+    background-color: white;
+    color: black;
+    display: none;
+}
+
+.gayabPart > ul > li {
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+.make:hover .gayabPart {
+    display: block;
+}
+
+.searchBarFormat {
+    height: 80px;
+}
+
+
+
+/* PINK HEAD NAVIGATION BAR  */
+
+
+/* TOP HEAD SEACH BAR PART  */
+
+
+
+/* BB CREAM ARROW PORTION */
+
+body {
+    background-color: ;
+}
+
+.backTo {
+    margin: 0px;
+    width: 100%;
+    height: 25px;
+    background-color: #f5f5f5;
+}
+
+.backTo > ul {
+    display: flex;
+}
+
+.backTo > ul > li {
+   text-decoration: none;
+   list-style: none;
+   padding: 3px;
+}
+
+.backTo > ul > li > a {
+    text-decoration: none;
+    color: #666;
+    margin: 0px 10px;
+}
+
+.backTo > ul > li > a:hover {
+    color: #dd0285 ;
+}
+/* BB CREAM ARROW PORTION  */
+
+
+
+/* PRODUCT FULL INFO */
+
+.productInfoBox {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.infoBoxLeft {
+    width: 45%;    
+    border: 1px dotted red;
+    margin: 10px;
+}
+
+.infoBoxLeft > div {
+    width: 90%;
+    margin: 4%;
+}
+
+.infoBoxLeft > div > img {
+    width: 100%;
+}
+
+.infoBoxLeft1 {
+    display: flex;
+}
+
+.infoBoxLeft1 > div > img {
+    width: 90%;
+    border: 1px solid #dd0285;
+}
+
+.infoBoxRight {
+    border: 1px dotted red;
+    width: 45%;
+    margin: 10px;
+}
+
+.infoBoxRight > button {
+    background-color: #dd0285;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 10px 20px;
+    padding: 5px;
+}
+
+/* PRODUCT FULL INFO */

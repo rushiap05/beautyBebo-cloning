@@ -1,0 +1,266 @@
+/* TOP HEAD  */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.startHead {
+    background-color: black;
+}
+
+.topImage {
+    width: 100%;
+}
+
+.topImage + p {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -4px;
+    padding: 4px 0px;
+}
+
+/* TOP HEAD  */
+
+
+/* TOP HEAD SEACH BAR PART  */
+
+
+/* ALL GRID PART  */
+
+.internalBar {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+
+/* ALL GRID PART  */
+
+.internalBar {
+    width: 85%;
+    margin: auto;
+}
+
+.sideButton {
+    width: 45px;
+    height: 36px;
+    background-color: #dd0285;
+    margin: auto 0px;
+}
+
+.topInputBox {
+    width: 33rem;
+    height: 2rem;
+    margin: auto 0px;
+}
+
+.searchContent {
+    display: flex;
+}
+
+.rightSearchBar {
+    display: flex;
+    margin-left: 10%;
+}
+
+.rightSearchBar > img, p {
+    margin: 10px;
+}
+
+.rightSearchBar > img {
+    width: 40px;
+    height: 40px;
+}
+
+.rightSearchBar > p {
+    line-height: 40px;
+}
+
+.loginFloat > a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+/* PINK HEAD NAVIGATION BAR  */
+
+.navbar {
+    height: 50px;
+    background-color: #dd0285;
+    position: sticky;
+    top: 0px;
+
+}
+
+.navbarAllItems > ul {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.navbarAllItems > ul > li {
+    list-style: none;
+    padding: 10px;
+    margin: 0px 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.gayabPart {
+    background-color: white;
+    color: black;
+    display: none;
+}
+
+.gayabPart > ul > li {
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+.make:hover .gayabPart {
+    display: block;
+}
+
+.searchBarFormat {
+    height: 80px;
+}
+
+
+
+/* PINK HEAD NAVIGATION BAR  */
+
+
+/* TOP HEAD SEACH BAR PART  */
+
+
+
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.loginMain {
+    width: 80%;
+    margin: auto;
+}
+
+.gridBox > div {
+    width: 45%;
+}
+
+.gridBox {
+    display: flex;
+}
+
+/* LEFT BOX  */
+.gridBox > div {
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.loginBox1 {
+    width: 90%;
+    margin: 30px auto;
+    margin-bottom: 60px;
+
+}
+
+.loginBox1 > h3 {
+    color: #444;
+    font-weight: 500;
+}
+
+.loginBox1 > p {
+    color: #666666;
+    margin: 25px 0px;
+}
+
+.loginEmail, .loginPassword > label {
+    color: #666666;
+    font-weight: 500;
+}
+
+
+.loginEmail, .loginPassword {
+    margin: 7px 0px;
+}
+
+.loginBox1 > div > input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.loginButton1 {
+    background-color: #444;
+    color: white;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.loginButton1:hover {
+    background-color: #dd0285;
+}
+
+.lineAfter {
+    width: 100%;
+    height: 0.7px;
+    background-color: rgb(207, 207, 207);
+}
+
+.forgot:hover {
+    color: #dd0285;
+}
+/* LEFT BOX  */
+
+/* RIGHT BOX  */
+
+.loginBox2 {
+    width: 90%;
+    margin: 30px auto;
+    margin-bottom: 60px;
+}
+
+.loginBox2 > h3 {
+    color: #444;
+    font-weight: 500;
+}
+
+.loginBox2 > p {
+    color: #666666;
+    margin: 25px 0px;
+}
+
+.loginBtn2 {
+    background-color: #444;
+    color: white;
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 110px;
+}
+
+.loginBtn2:hover {
+    background-color: #dd0285;
+}
+
+.gridBox > div {
+    margin: 20px;
+}
+
+/* RIGHT BOX  */

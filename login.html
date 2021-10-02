@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+<body>
+
+<!-- TOP HEAD  -->
+
+<div class="startHead">
+    <a href="homepage.html">
+        <img class="topImage" src="https://www.beautybebo.com/pub/media/ads/ad-desktop.jpg" alt="ad">
+        <p>Due to Covid outbreak, Your orders may get delayed.</p>
+    </a>
+</div>
+
+<!-- TOP HEAD SEARCH BAR PART -->
+
+<div class="searchBarFormat">
+    <div class="internalBar">
+        <!-- MAIN CODE  -->
+
+        <div class="searchImage">
+            <a href="homepage.html">
+                <img src="beautybebo_1.png" alt="beautybebo image">
+            </a>
+        </div>
+        
+        <!-- SEARCH BAR -->
+
+        <div class="searchContent">
+            <input class="topInputBox" type="text" placeholder="Enter your text">
+            <div class="sideButton">
+                <img src="" alt="">
+            </div>
+        </div>
+
+        <!-- SEARCH BAR -->
+
+        <!-- SEARCH BAR RIGHT PART -->
+
+        <div class="rightSearchBar">
+            <img src="https://via.placeholder.com/30x30">
+            <img src="https://via.placeholder.com/30x30">
+            <p class="loginFloat"><a href="">My Account</a></p>
+        </div>
+
+        <!-- SEARCH BAR RIGHT PART -->
+
+        <!-- MAIN CODE  -->
+    </div>
+</div>
+
+<!-- TOP HEAD SEARCH BAR PART -->
+
+<!-- TOP HEAD NAVIGATION BAR -->
+
+<div class="navbar">
+
+    <div class="navbarAllItems">
+        <ul>
+            <li class="make">MAKE UP
+                <div class="gayabPart">
+                    <h3>Face</h3>
+                <ul>
+                    <li><a href="#">BB Cream</a></li>
+                    <li><a href="#">Blush</a></li>
+                    <li><a href="#">Bronzer</a></li>
+                    <li><a href="#">CC Cream</a></li>
+                    <li><a href="#">Counter</a></li>
+                    <li><a href="#">Conceler</a></li>
+                </ul>
+                </div>
+
+            </li>
+            <li class="make">SKIN
+                <div class="gayabPart">
+                    <h3>Eye Care</h3>
+                <ul>
+                    <li><a href="#">Dark Circle</a></li>
+                    <li><a href="#">Eye countour care</a></li>
+                    <li><a href="#">Eye Cream</a></li>
+                    <li><a href="#">Eye Mask</a></li>
+                    <li><a href="#">Eye serum</a></li>
+                    <li><a href="#">Puffiness</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="make">HAIR
+                <div class="gayabPart">
+                    <h3>Hair Care</h3>
+                <ul>
+                    <li><a href="#">Color Protection</a></li>
+                    <li><a href="#">Dandruff</a></li>
+                    <li><a href="#">Dry Hai</a></li>
+                    <li><a href="#">Hair Spray</a></li>
+                    <li><a href="#">Hair color</a></li>
+                    <li><a href="#">Hair Styling</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="make">PERSONAL CARE
+                <div class="gayabPart">
+                    <h3>Body Care</h3>
+                <ul>
+                    <li><a href="#">Creams</a></li>
+                    <li><a href="#">Foot Cream</a></li>
+                    <li><a href="#">Body massage oil</a></li>
+                    <li><a href="#">Body soap</a></li>
+                    <li><a href="#">Shower Gel</a></li>
+                    <li><a href="#">Sponges</a></li>
+                </ul>
+                </div>
+            </li>
+            <li>MOM & BABY CARE</li>
+            <li>FRAGRANCE</li>
+            <li>AYURVEDA</li>
+            <li>BRANDS</li>
+            <li style="margin-left: 50px;"><a style="color: white; font-weight: 600;" href="">Mycart</a></li>
+
+        </ul>
+    </div>
+
+
+</div>
+
+<!-- TOP HEAD NAVIGATION BAR -->
+
+<!-- TOP HEAD  -->
+
+
+
+
+    
+<!-- LOGIN FULL CODE -->
+
+    <div class="loginMain">
+        <h1 style="color: #444; font-size: 20px;">CUSTOMER LOGIN</h1>
+
+        <!-- FACEBOOK AND GOOGLE PART -->
+
+        <!-- FACEBOOK AND GOOGLE PART -->
+
+        <!-- GRID PART -->
+        <div class="gridBox">
+            <div>
+                <!-- INSIDE DIV -->
+
+                <div class="loginBox1">
+                    <h3>REGISTERED CUSTOMERS</h3>
+                    <div class="lineAfter"></div>
+                    <p>If you have an account, sign in with your email address.</p>
+                    <div class="loginEmail">
+                        <label for="email">Email</label>
+                    </div>
+                    <div>
+                        <input id="beemail" type="email">
+                    </div>
+                    <div class="loginPassword">
+                        <label for="password">Password</label>
+                    </div>
+                    <div>
+                        <input id="bepassword" type="password">
+                    </div>
+                    <button onclick="validate()" class="loginButton1">
+                        SIGN IN
+                    </button>
+                    <p class="forgot">Forgot Your Password?</p>
+                </div>
+
+                <!-- INSIDE DIV -->
+            </div>
+
+             <!-- SECOND GRID DIV  -->
+        <div>
+
+            <div class="loginBox2">
+                <h3>NEW CUSTOMERS</h3>
+                <div class="lineAfter"></div>
+                <p>Creating an account has many benefits: check out faster, keep more than one address, track orders and more.</p>
+                <button onclick="signup()" class="loginBtn2">
+                    CREATE AN ACCOUNT
+                </button>
+            </div>
+
+        </div>
+        <!-- SECOND GRID DIV  -->
+
+
+        </div>
+
+       
+
+        <!-- GRID PART -->
+    </div>
+
+<!-- LOGIN FULL CODE -->
+
+<script>
+function signup() {
+    window.location = "signUp.html"
+    
+}
+
+function validate() {
+    var password = document.getElementById("bepassword").value;
+    var beemail = document.getElementById("beemail").value;
+    console.log("rushi");
+    if(password == "rushi" && beemail == "rushimpohare@gmail.com"){
+        window.location.href = "homepage.html";
+       
+    }else {
+        alert("login Id is incorrect");
+       
+    }
+}
+</script>
+
+</body>
+</html>

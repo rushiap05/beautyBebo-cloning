@@ -1,0 +1,84 @@
+.productOneMain {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.productOneleft {
+    width: 73%;
+}
+
+.productWholeBox {
+    display: flex;
+    margin: 6px;
+}
+
+.productWholeBox > div {
+    margin: 5px;
+}
+
+.priceSpan > span {
+    margin: 0px 10px;
+}
+
+.productOneleft > span {
+    margin: 0px 10px;
+    padding: 5px;
+}
+
+.productOneRight {
+    width: 24%;
+    margin: 5px auto;
+    border: 1px solid rgba(230, 230, 230, 0.993);
+}
+
+.oneRightInside {
+    margin: 10px;
+}
+
+.oneProduct > button {
+    margin: 5px;
+    padding: 5px;
+}
+
+.oneProduct > button:hover {
+    background-color: #dd0285 ;
+}
+
+.oneProduct > button:nth-child(1):hover {
+    background-color: grey;
+    font-weight: 700;
+}
+
+.twoProduct > button {
+    background-color: #dd0285;
+    margin: 5px;
+    padding: 7px;
+    color: white;
+    font-weight: 600;
+}
+
+.twoProduct > button:hover {
+    background-color: #333;
+}
+
+.proceedButton {
+    background-color: #dd0285;
+    width: 100%;
+    color: white;
+    padding: 5px;
+    height: 35px;
+    font-size: 17px;
+}
+
+.proceedButton:hover {
+    background-color: #333;
+}
+
+.buttonBorder {
+    border: 1px solid grey;
+    background-color: rgb(240, 240, 240);
+    padding: 5px;
+    font-weight: 500;
+}
+
